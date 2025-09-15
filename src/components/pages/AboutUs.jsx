@@ -31,9 +31,10 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            <AboutTeam />
-            
-            <div className="max-w-7xl mx-auto mt-[140vh] lg:mt-20 p-8 rounded-2xl">
+            <div className='relative'>
+                <AboutTeam />
+            </div>
+            <div className="max-w-7xl mx-auto lg:mt-20 p-8 rounded-2xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     <div>
                         <h2 className="font-bold text-4xl mb-4" style={{ color: '#282a77' }}>Contact Information</h2>
