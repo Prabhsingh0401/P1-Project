@@ -47,7 +47,7 @@ const AboutTeam = () => {
         <h2 className="font-bold text-5xl px-8 text-center mt-20 mb-5" style={{ color: '#282a77' }}>Meet our Team</h2>
         <p className="text-gray-500 text-2xl">Dedicated experts committed to revolutionizing cybersecurity</p>
         </div>
-        <div className="relative mb-20 lg:h-[50vh] h-[165vh]">
+        <div className="relative mb-20 lg:h-[50vh] h-[185vh]">
         <ChromaGrid 
             items={items}
             radius={300}
